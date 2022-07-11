@@ -1,0 +1,5 @@
+{11.07.2022 13:14:13}-{Employee added}-{Julia}
+{11.07.2022 13:19:46}-{Employee remove}-{Julia}
+{11.07.2022 14:33:10}-{Employee added}-{Julka}
+{11.07.2022 14:33:28}-{Boss added}-{ffff}
+{11.07.2022 14:33:48}-{Boss remove}-{ffff}
