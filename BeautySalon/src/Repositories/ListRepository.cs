@@ -5,11 +5,14 @@ namespace BeautySalon.Repositories
     public class ListRepository<T> : IRepository<T>
         where T : class, IEntity, new()
     {
-        private readonly List<T> _items = new();
+        public readonly List<T> _items = new();
+
+        public event EventHandler<T>? ItemAdded;
+        public event EventHandler<T>? ItemRemove;
 
         public void Add(T item)
         {
-            item.Id = _items.Count + 1;
+            //item.Id = _items.Count + 1;
             _items.Add(item);
         }
 

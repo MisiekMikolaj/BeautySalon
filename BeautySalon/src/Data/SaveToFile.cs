@@ -40,7 +40,7 @@ namespace BeautySalon.Data
 
         }
 
-        public void AuditSaveInFile()
+        public void AuditSaveInFileFromList()
         {
             string path = @"Entities\Audit.txt";
             using (var sw = File.AppendText(path))
@@ -49,6 +49,16 @@ namespace BeautySalon.Data
                 {
                     sw.WriteLine(operation);
                 }
+            }
+        }
+        public static void AuditSaveInFile<T>(T item, string operation, object itemProperty) where T : IEntity
+        {
+            string path = @"Entities\Audit.txt";
+            DateTime now = DateTime.Now;
+
+            using (var sf = File.AppendText(path))
+            {
+                sf.WriteLine($"{{{now}}}-{{{item.GetType().Name} {operation}}}-{{{itemProperty}}}");
             }
         }
     }

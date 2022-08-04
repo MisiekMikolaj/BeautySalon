@@ -3,3 +3,22 @@
 {11.07.2022 14:33:10}-{Employee added}-{Julka}
 {11.07.2022 14:33:28}-{Boss added}-{ffff}
 {11.07.2022 14:33:48}-{Boss remove}-{ffff}
+{03.08.2022 13:51:34}-{Employee added}-{gary}
+{03.08.2022 13:51:34}-{Employee remove}-{gary}
+{03.08.2022 13:51:55}-{Employee added}-{ffff}
+{03.08.2022 13:51:55}-{Employee remove}-{ffff}
+{03.08.2022 13:58:21}-{Employee added}-{aaa}
+{03.08.2022 13:58:21}-{Employee added}-{bbbbbb}
+{04.08.2022 11:57:59}-{Client added}-{fasfasf}
+{04.08.2022 12:08:53}-{WorkSchedule added Work Schedule to Employee with Id: }-{0}
+{04.08.2022 12:27:55}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:28:57}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:42:09}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:46:48}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:47:23}-{WorkSchedule added Work Schedule to Employee with Id: }-{2}
+{04.08.2022 12:48:14}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 15:32:25}-{WorkSchedule added to Employee with Id: }-{2}
+{04.08.2022 15:42:10}-{WorkSchedule added to Employee with Id: }-{2}
+{04.08.2022 16:00:09}-{WorkSchedule added to Employee with Id: }-{2}
+{04.08.2022 21:47:55}-{Employee added}-{lol1}
+{04.08.2022 21:47:55}-{Employee added}-{lol2}

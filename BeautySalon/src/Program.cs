@@ -1,13 +1,44 @@
-﻿using BeautySalon.Data;
+﻿using BeautySalon;
+using BeautySalon.Data;
+using BeautySalon.Entities.Stuff;
+using BeautySalon.Entities.Users;
+using BeautySalon.Repositories;
+using BeautySalon.UserInterface;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
+
+var services = new ServiceCollection();
+services.AddSingleton<IApp, App>();
+
+services.AddSingleton<IRepository<Employee>, SqlRepository<Employee>> ();
+services.AddSingleton<IRepository<Boss>, SqlRepository<Boss>>();
+services.AddSingleton<IRepository<Client>, SqlRepository<Client>>();
+services.AddSingleton<IRepository<Service>, SqlRepository<Service>>();
+services.AddSingleton<IRepository<WorkSchedule>, SqlRepository<WorkSchedule>>();
+services.AddSingleton<IRepository<Day>, SqlRepository<Day>>();
+services.AddSingleton<IRepository<Houer>, SqlRepository<Houer>>();
+services.AddSingleton<IUserComunication, UserComunication>();
+
+services.AddDbContext<BeautySalonDbContext>(
+        options => options.UseSqlServer(@"Data Source=DESKTOP-24JQ58J\SQLEXPRESS;Initial Catalog=lol;Integrated Security=True"));
+
+var serviceProvider = services.BuildServiceProvider();
+var app = serviceProvider.GetRequiredService<IApp>();
+
+app.Run();
+
+/*using BeautySalon.Data;
 using BeautySalon.Entities;
 using BeautySalon.Repositories;
 using BeautySalon.Repositories.Extensions;
 using BeautySalon.Entities.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System.Text.Json;
-using System.Runtime.CompilerServices;
+using System.Text.Json; 
+using System.Runtime.CompilerServices;*/
 
+/*
 var employeeRepository = new SqlRepository<Employee>(new BeautySalonDbContext());
 var bossRepository = new SqlRepository<Boss>(new BeautySalonDbContext());
 var ss = new SaveToFile();
@@ -20,9 +51,9 @@ bossRepository.ItemAdded += EmployeeRepositoryFromItemAdded;
 employeeRepository.ItemRemove += EmployeeRepositoryFromItemRemove;
 bossRepository.ItemRemove += EmployeeRepositoryFromItemRemove;
 
-/*var services = new ServiceCollection();
+*//*var services = new ServiceCollection();
 services.AddDbContext<BeautySalonDbContext>(options => options
-    .UseSqlServer("Data Source=DESKTOP-24JQ58J\\SQLEXPRESS;Initial Catalog=BeautySalonStorage;Integrated Security=True"));*/
+    .UseSqlServer("Data Source=DESKTOP-24JQ58J\\SQLEXPRESS;Initial Catalog=BeautySalonStorage;Integrated Security=True"));*//*
 var menu = (" --------------------------------------------\n | Select:                                  | " +
         "\n | 1) if you want add employee              | \n | 2) if you want remove employee           | \n " +
         "| 3) if you want display all employee      | \n | 4) if you want add boss                  | \n " +
@@ -168,3 +199,4 @@ static bool CheckAccess(IReadRepository<IEntity> employeeRepository, Type type)
 }
 
 
+*/
