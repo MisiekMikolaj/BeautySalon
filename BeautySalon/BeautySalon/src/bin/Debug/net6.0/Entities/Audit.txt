@@ -1,0 +1,91 @@
+{11.07.2022 13:14:13}-{Employee added}-{Julia}
+{11.07.2022 13:19:46}-{Employee remove}-{Julia}
+{11.07.2022 14:33:10}-{Employee added}-{Julka}
+{11.07.2022 14:33:28}-{Boss added}-{ffff}
+{11.07.2022 14:33:48}-{Boss remove}-{ffff}
+{03.08.2022 13:51:34}-{Employee added}-{gary}
+{03.08.2022 13:51:34}-{Employee remove}-{gary}
+{03.08.2022 13:51:55}-{Employee added}-{ffff}
+{03.08.2022 13:51:55}-{Employee remove}-{ffff}
+{03.08.2022 13:58:21}-{Employee added}-{aaa}
+{03.08.2022 13:58:21}-{Employee added}-{bbbbbb}
+{04.08.2022 11:57:59}-{Client added}-{fasfasf}
+{04.08.2022 12:08:53}-{WorkSchedule added Work Schedule to Employee with Id: }-{0}
+{04.08.2022 12:27:55}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:28:57}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:42:09}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:46:48}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 12:47:23}-{WorkSchedule added Work Schedule to Employee with Id: }-{2}
+{04.08.2022 12:48:14}-{WorkSchedule added Work Schedule to Employee with Id: }-{1}
+{04.08.2022 15:32:25}-{WorkSchedule added to Employee with Id: }-{2}
+{04.08.2022 15:42:10}-{WorkSchedule added to Employee with Id: }-{2}
+{04.08.2022 16:00:09}-{WorkSchedule added to Employee with Id: }-{2}
+{04.08.2022 21:47:55}-{Employee added}-{lol1}
+{04.08.2022 21:47:55}-{Employee added}-{lol2}
+{04.08.2022 22:29:36}-{Employee added}-{w}
+{04.08.2022 22:30:58}-{Employee remove}-{lol1}
+{04.08.2022 22:31:14}-{Boss added}-{dasd}
+{04.08.2022 22:31:19}-{Employee added}-{dsada}
+{04.08.2022 22:31:30}-{Employee added}-{ds}
+{04.08.2022 22:31:30}-{Employee added}-{dsad}
+{04.08.2022 22:31:54}-{Client added}-{fsdfsdf}
+{07.08.2022 16:37:15}-{Employee remove}-{Misiek}
+{07.08.2022 20:55:42}-{Employee added}-{ddddd}
+{07.08.2022 20:56:19}-{Employee added}-{dd}
+{10.08.2022 13:41:59}-{WorkSchedule added to Employee with Id: }-{2}
+{10.08.2022 13:47:55}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 13:48:33}-{Employee added}-{Gary}
+{10.08.2022 13:52:07}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 14:06:11}-{Employee remove}-{}
+{10.08.2022 14:06:24}-{Employee remove}-{}
+{10.08.2022 14:09:22}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 14:11:35}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 14:20:39}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 14:26:19}-{Employee remove}-{Gary}
+{10.08.2022 14:26:24}-{Employee remove}-{}
+{10.08.2022 14:26:27}-{Employee remove}-{}
+{10.08.2022 14:26:37}-{Employee added}-{Gary}
+{10.08.2022 14:27:06}-{Employee remove}-{}
+{10.08.2022 14:27:26}-{Employee added}-{Gary}
+{10.08.2022 14:28:26}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 14:28:46}-{Employee remove}-{}
+{10.08.2022 14:30:05}-{WorkSchedule added to Employee with Id: }-{0}
+{10.08.2022 14:30:20}-{Employee remove}-{}
+{10.08.2022 14:31:05}-{WorkSchedule added to Employee with Id: }-{2}
+{10.08.2022 14:45:33}-{WorkSchedule added to Employee with Id: }-{118}
+{10.08.2022 15:30:16}-{WorkSchedule added to Employee lalala with Id: }-{20}
+{10.08.2022 15:56:48}-{WorkSchedule added to Employee lalala with Id: }-{20}
+{12.08.2022 18:32:10}-{Employee added}-{dddd}
+{13.08.2022 11:38:25}-{Employee added}-{lol}
+{13.08.2022 11:38:25}-{Employee added}-{das}
+{13.08.2022 11:38:25}-{Employee added}-{Julka}
+{13.08.2022 11:40:19}-{Employee added}-{lol}
+{13.08.2022 11:40:19}-{Employee added}-{das}
+{13.08.2022 11:40:19}-{Employee added}-{Julka}
+{13.08.2022 11:55:21}-{Employee added}-{lol}
+{13.08.2022 11:55:21}-{Employee added}-{das}
+{13.08.2022 11:55:21}-{Employee added}-{Julka}
+{14.08.2022 11:36:22}-{Employee added}-{Natka}
+{14.08.2022 11:40:49}-{Employee added}-{Natka}
+{14.08.2022 11:42:08}-{Boss added}-{Natka}
+{15.08.2022 12:43:07}-{Employee added}-{bartek}
+{15.08.2022 12:43:07}-{Employee added}-{kasia}
+{15.08.2022 17:12:18}-{WorkSchedule added to Employee lalala with Id: }-{20}
+{15.08.2022 17:18:55}-{WorkSchedule added to Employee lalala with Id: }-{20}
+{15.08.2022 17:22:00}-{WorkSchedule added to Employee lalala with Id: }-{20}
+{16.08.2022 14:35:09}-{Employee added}-{Vegeta}
+{16.08.2022 14:35:09}-{Employee added}-{Goku}
+{16.08.2022 14:35:09}-{Employee added}-{Ichigo}
+{17.08.2022 15:54:18}-{WorkSchedule added to Employee lalala with Id: }-{20}
+{18.08.2022 22:40:24}-{Employee added}-{mmm}
+{18.08.2022 22:45:54}-{Employee added}-{mamamia}
+{18.08.2022 22:46:59}-{Employee added}-{s}
+{18.08.2022 22:51:21}-{Employee added}-{1}
+{18.08.2022 23:04:46}-{WorkSchedule added to Employee Julka with Id: }-{141}
+{18.08.2022 23:30:45}-{Employee added}-{s}
+{19.08.2022 10:25:29}-{Client added}-{m@.com}
+{19.08.2022 10:38:33}-{WorkSchedule added to Employee Basia with Id: }-{1}
+{19.08.2022 10:39:56}-{Employee added}-{Bartek}
+{19.08.2022 10:39:56}-{Employee added}-{Kuba}
+{19.08.2022 10:40:06}-{Employee remove}-{Kuba}
+{19.08.2022 10:40:21}-{Boss added}-{Natka}
