@@ -89,3 +89,13 @@
 {19.08.2022 10:39:56}-{Employee added}-{Kuba}
 {19.08.2022 10:40:06}-{Employee remove}-{Kuba}
 {19.08.2022 10:40:21}-{Boss added}-{Natka}
+{19.08.2022 21:45:29}-{Employee added}-{chuj}
+{19.08.2022 21:47:04}-{WorkSchedule added to Employee Natka with Id: }-{4}
+{19.08.2022 22:09:00}-{WorkSchedule added to Employee Julka with Id: }-{3}
+{22.08.2022 11:42:21}-{WorkSchedule added to Employee Basia with Id: }-{1}
+{22.08.2022 11:54:22}-{WorkSchedule added to Employee Basia with Id: }-{1}
+{22.08.2022 11:55:15}-{WorkSchedule added to Employee Julka with Id: }-{3}
+{22.08.2022 12:38:39}-{WorkSchedule added to Employee Basia with Id: }-{1}
+{22.08.2022 13:19:50}-{WorkSchedule added to Employee Julka with Id: }-{3}
+{22.08.2022 13:21:53}-{Client added}-{a}
+{22.08.2022 14:22:45}-{WorkSchedule added to Employee Julka with Id: }-{3}

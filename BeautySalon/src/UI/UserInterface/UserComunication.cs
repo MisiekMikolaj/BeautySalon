@@ -6,6 +6,7 @@ using BeautySalon.DataAcces.Data.Repositories;
 using BeautySalon.DataAcces.Data.Repositories.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using System.Diagnostics;
 
 namespace BeautySalon.UI.UserInterface
 {
@@ -249,13 +250,7 @@ namespace BeautySalon.UI.UserInterface
                     {
                         foreach (Houer houer in day.Houers)
                         {
-                            if (day.IsToday && houer.IsFree)
-                            {
-                                houer.IsFree = false;
-                                houer.Client = client;
-                                houer.Service = service;
-                            }
-                            else
+                            if(!day.IsToday || !houer.IsFree)
                             {
                                 Console.WriteLine(
                                     "\n" +
@@ -263,15 +258,23 @@ namespace BeautySalon.UI.UserInterface
                                     "  This employee is not free this time  \n" +
                                     "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
                             }
+                            if (day.IsToday && houer.IsFree)
+                            {
+                                houer.IsFree = false;
+                                houer.Client = client;
+                                houer.Service = service;
+                            }
                         }
                     }
                 }
             }
-            beautySalonDbContext.SaveChanges();
+            beautySalonDbContext.SaveChanges();  
         }
 
         public List<Employee> makeContextToSignUpForService(BeautySalonDbContext beautySalonDbContext)
         {
+            beautySalonDbContext.ChangeTracker.Clear();
+
             Console.WriteLine("Employee Id: ");
             var employeeId = int.Parse(Console.ReadLine());
             Console.WriteLine("Date(dd.MM): ");
